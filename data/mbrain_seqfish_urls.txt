@@ -1,0 +1,2 @@
+https://zenodo.org/record/4708112/files/TableS7_brain_DNAseqFISH_1Mb_voxel_coordinates_2762cells.csv
+https://zenodo.org/record/4708112/files/TableS8_brain_DNAseqFISH_25kb_voxel_coordinates_2762cells.csv
