@@ -8,8 +8,8 @@ reference DNA polymer model.
 The codename is a tribute to the Chinese homophones:
 
 - ``结 (jié)`` : a knot, a nod to the mysterious and often entangled structures of DNA
-- ``解 (jiĕ)`` : to solve, our bid to uncover these structures amid noise and uncertainty
-- ``姐 (jiĕ)`` : sister, our ability to resolve tightly paired replicated chromatids that are otherwise identically labeled under imaging
+- ``解 (jiĕ)`` : to solve, to untie, our bid to uncover these structures amid noise and uncertainty
+- ``姐 (jiĕ)`` : sister, our ability to resolve tightly paired replicated chromatids
 
 Installation
 ------------
