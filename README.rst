@@ -37,18 +37,18 @@ illustrate the utility and power of spatial genome alignment.
 
 ``jie`` is NOT an all-purpose spatial genome aligner. Chromatin imaging is a nascent field and data collection is still being standardized. This aligner may not be compatible with different imaging protocols and data formats, among other variables.
 
-We provide a series of Jupyter notebooks (``jie/jupyter/``), with emphasis on ``reproducibility``. This reproduces figures from our accompanying manuscript::
+We provide a vignette under ``jie/jupyter/``, with emphasis on ``inspectability``. This walks through the intuition of our spatial genome alignment and polymer fiber karyotyping routines::
+
+    00-spatial-genome-alignment-walk-thru.ipynb
+
+We also provide a series of Jupyter notebooks (``jie/jupyter/``), with emphasis on ``reproducibility``. This reproduces figures from our accompanying manuscript::
 
     01-seqFISH-plus-mouse-ESC-spatial-genome-alignment.ipynb
     02-seqFISH-plus-mouse-ESC-polymer-fiber-karyotyping.ipynb
     03-seqFISH-plus-mouse-brain-spatial-genome-alignment.ipynb
     04-seqFISH-plus-mouse-brain-polymer-fiber-karyotyping.ipynb
-    05-bench-mark-spatial-genome-agignment-against-chromatin-tracing-algorithm.ipynb
-    
-We also provide a vignette under ``jie/jupyter/``, with emphasis on ``inspectability``. This walks through the intuition of our spatial genome alignment and polymer fiber karyotyping routines::
+    05-bench-mark-spatial-genome-agignment-against-chromatin-tracing-algorithm.ipynb  
 
-    00-spatial-genome-alignment-walk-thru.ipynb
-    
 A command-line tool forthcoming. 
 
 Motivation
@@ -78,7 +78,9 @@ But what happens when we see:
 
 If true signal and noise are indistinguishable, how do we know we are selecting 
 true signals during chromatin tracing? It is not obvious which spots should be connected
-as part of a chromatin fiber.
+as part of a chromatin fiber. This dilemma was first aptly characterized by Ross et al.
+(https://journals.aps.org/pre/abstract/10.1103/PhysRevE.86.011918), which is nothing
+short of prescient...!
 
 ``jie`` is, conceptually, a spatial genome aligner that disambiguates spot 
 selection by checking each imaged signal against a reference polymer physics 
@@ -98,3 +100,6 @@ Contact
 :Position: MD-PhD Student, Ren Lab
 
 For other work related to single-cell biology, 3D genome, and chromatin imaging, please visit Prof. Bing Ren's website: http://renlab.sdsc.edu/
+
+For a spatial genome aligner that leverages the forwards-backwards algorithm to estimate the most likely state at each 
+locus, please visit: https://github.com/heltilda/align3d
