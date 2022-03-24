@@ -89,6 +89,7 @@ def proximity_cluster(pts_list, gene_dist):
         _df = copy.deepcopy(pts)
 
         # cluster
+        print("eps", 13)
         dbsc = DBSCAN(eps = 13, min_samples = 10).fit(_df.loc[:, ['x_hat', 'y_hat', 'z_hat']].values)
         labels = np.abs(dbsc.labels_)
         _df['cluster'] = labels

@@ -1,0 +1,2 @@
+http://renlab.sdsc.edu/b2jia/jie/CTCFx4_rep1.Ballele.hic
+http://renlab.sdsc.edu/b2jia/jie/D41_candidates_RNA.csv
