@@ -106,6 +106,3 @@ Contact
 :Position: MD-PhD Student, Ren Lab
 
 For other work related to single-cell biology, 3D genome, and chromatin imaging, please visit Prof. Bing Ren's website: http://renlab.sdsc.edu/
-
-For a spatial genome aligner that leverages the forwards-backwards algorithm to estimate the most likely state at each 
-locus, please visit: https://github.com/heltilda/align3d
