@@ -1,7 +1,7 @@
-Jie
+jie
 ---
 
-``Jie`` is a spatial genome aligner. This package parses true 
+``jie`` is a spatial genome aligner. This package parses true 
 chromatin imaging signal from noise by aligning signals to a 
 reference DNA polymer model.
 
@@ -41,7 +41,7 @@ We provide a vignette under ``jie/jupyter/``, with emphasis on ``inspectability`
 
     00-spatial-genome-alignment-walk-thru.ipynb
 
-We also provide a series of Jupyter notebooks (``jie/jupyter/``), with emphasis on ``reproducibility``. This reproduces figures from our accompanying manuscript::
+We also provide a series of Jupyter notebooks (``jie/jupyter/``), with emphasis on ``reproducibility``. This reproduces figures from our `accompanying manuscript <https://biorxiv.org/cgi/content/short/2022.03.25.485845v1>`_::
 
     01-seqFISH-plus-mouse-ESC-spatial-genome-alignment.ipynb
     02-seqFISH-plus-mouse-ESC-polymer-fiber-karyotyping.ipynb
@@ -91,6 +91,12 @@ It makes no assumptions about the expected copy number of a gene, and when
 it traces chromatin it does so instead by evaluating the ``physical likelihood`` 
 of the chromatin fiber. In doing so, we can uncover copy number variations and 
 even sister chromatids from multiplexed DNA-FISH imaging data.
+
+Citation
+--------
+
+- `Jia, B.B. et al. A spatial genome aligner for multiplexed DNA-FISH. bioRxiv 2022.03.25.485845 (2022) doi:101101/2022.03.25.485845 <https://biorxiv.org/cgi/content/short/2022.03.25.485845v1>`_
+
 
 Contact
 -------
