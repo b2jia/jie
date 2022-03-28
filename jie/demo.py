@@ -1,3 +1,11 @@
+#-----------------------------------------------------------------------------
+# Copyright (c) 2022--, Bojing Jia.
+#
+# Distributed under the terms of the GPLv3 license.
+#
+# The full license is in the file LICENSE.txt, distributed with this software.
+#-----------------------------------------------------------------------------
+
 import ipywidgets as wg
 from IPython.display import Image
 

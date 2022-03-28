@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+#-----------------------------------------------------------------------------
+# Copyright (c) 2022--, Bojing Jia.
+#
+# Distributed under the terms of the GPLv3 license.
+#
+# The full license is in the file LICENSE.txt, distributed with this software.
+#-----------------------------------------------------------------------------
+
 import numpy as np
 import pandas as pd
 import igraph
