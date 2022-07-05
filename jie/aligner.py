@@ -50,7 +50,7 @@ def log_bond(l_p, ideal_l, r):
     s_sq = 2*l_p*ideal_l/3 
     
     # calculate bond probability
-    prob = -np.log(np.power((2*np.pi*s_sq), -3/2)) + ((r**2)/(2*s_sq))
+    prob = -2*np.log(r) - np.log(np.power((2*np.pi*s_sq), -3/2)) + ((r**2)/(2*s_sq))
     
     return prob
     
