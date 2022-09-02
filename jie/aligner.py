@@ -23,7 +23,7 @@ from .utilities import (cartesian_esqsum,
                         check_lp_wgaps,
                         find_loci_dist)
 
-def log_bond(l_p, ideal_l, r):
+def log_bond(l_p, ideal_l, r, svt=False):
     '''
     Input:
         l_p: float
@@ -32,6 +32,8 @@ def log_bond(l_p, ideal_l, r):
            distance of one bond length given bin_size
         r: float
             distance of observed bond
+        svn: boolean
+            indicates use of spherical volume term arising from integration (Default = False)
     Output:
         prob: float
             log probability of polymer segment
@@ -50,7 +52,10 @@ def log_bond(l_p, ideal_l, r):
     s_sq = 2*l_p*ideal_l/3 
     
     # calculate bond probability
-    prob = -2*np.log(r) - np.log(np.power((2*np.pi*s_sq), -3/2)) + ((r**2)/(2*s_sq))
+    if svt:
+        prob = -2*np.log(r) - np.log(np.power((2*np.pi*s_sq), -3/2)) + ((r**2)/(2*s_sq))
+    else:
+        prob = - np.log(np.power((2*np.pi*s_sq), -3/2)) + ((r**2)/(2*s_sq))
     
     return prob
     
