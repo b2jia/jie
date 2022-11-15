@@ -6,6 +6,7 @@ chromatin imaging signal from noise by aligning signals to a
 reference DNA polymer model.
 
 The codename is a tribute to the Chinese homophones:
+
 - ``接 (jiē)`` : to connect, DNA appearing as dots under imaging, as if to trace out a constellation
 - ``结 (jié)`` : a knot, a nod to the mysterious and often entangled structures of DNA
 - ``解 (jiĕ)`` : to solve, to untie, our bid to uncover these structures amid noise and uncertainty
