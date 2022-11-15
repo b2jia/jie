@@ -6,7 +6,7 @@ chromatin imaging signal from noise by aligning signals to a
 reference DNA polymer model.
 
 The codename is a tribute to the Chinese homophones:
-
+- ``接 (jiē)`` : to connect, DNA appearing as dots under imaging, as if to trace out a constellation
 - ``结 (jié)`` : a knot, a nod to the mysterious and often entangled structures of DNA
 - ``解 (jiĕ)`` : to solve, to untie, our bid to uncover these structures amid noise and uncertainty
 - ``姐 (jiĕ)`` : sister, our ability to resolve tightly paired replicated chromatids
@@ -19,7 +19,7 @@ Step 1 - Clone this repository::
     cd jie
 Step 2 - Create a new conda environment and install dependencies::
 
-    conda create --name jie -f environment.yml
+    conda env create --name jie --file=environment.yml
     conda activate jie
     
 Step 3 - Install ``jie``::
@@ -27,8 +27,9 @@ Step 3 - Install ``jie``::
     pip install -e .
     
 To test, run::
-
-    python -W ignore test/test_jie.py
+    
+    cd test
+    python -W ignore test_jie.py
 
 Usage
 -----
