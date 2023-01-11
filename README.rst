@@ -98,7 +98,7 @@ even sister chromatids from multiplexed DNA-FISH imaging data.
 Citation
 --------
 
-- `Jia, B.B. et al. A spatial genome aligner for resolving chromatin architectures from multiplexed DNA-FISH. Nature Biotechnology (2022) doi:10.1038/s41587-022-01568-9<https://www.nature.com/articles/s41587-022-01568-9>`_
+- `Jia, B.B. et al. A spatial genome aligner for resolving chromatin architectures from multiplexed DNA-FISH. Nature Biotechnology (2022) doi:10.1038/s41587-022-01568-9 <https://www.nature.com/articles/s41587-022-01568-9>`_
 
 
 Contact
